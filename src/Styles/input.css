@@ -1,0 +1,33 @@
+#educationInput,#experienceInput,#GeneralInfonput {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 33%;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.edit_submit{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.editable{
+    background-color: rgb(181, 220, 102);
+    
+
+}
+.editbtn{
+    background-color: rgb(230, 76, 76);
+    padding: 10px 20px;
+    border-radius: 20%;
+}
+.submitbtn{
+    background-color: rgb(83, 235, 67);
+    padding: 10px 20px;
+    border-radius: 20%;
+}
